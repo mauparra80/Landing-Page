@@ -1,0 +1,46 @@
+* div{
+    border: 2px solid rgb(0, 255, 234);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    
+    border: 2px solid red;
+}
+
+ul{
+    font-style: none;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li{
+    
+}
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px 0px 100px;
+    gap: 50px;
+}
+
+.header-logo{
+    font-size: 50px;
+    color: white;
+}
+
+.header-links{
+    flex-grow: 1;
+    display: flex;
+    gap: 20px;
+    color: lightgray;
+    text-align: right;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+}
