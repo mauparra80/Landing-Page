@@ -32,7 +32,7 @@ li{
     background-color: #1F2937;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 10vw 0px 10vw;
+    padding: 10px 10vw 0px 10vw;
     gap: 50px;
 }
 
@@ -60,6 +60,10 @@ li{
     gap: 20px;
 }
 
+.site-description h1{
+    margin-bottom: 5px;
+}
+
 .site-description{
     display: flex;
     flex-direction: column;
@@ -80,6 +84,7 @@ li{
 .logo-img img{
     width: 20vw;
     height: 10vw;
+    opacity:unset;
 }
 
 .content-items{
@@ -95,7 +100,8 @@ li{
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
+
 }
 
 .item{
@@ -119,9 +125,7 @@ li{
     font-size: 36px;
     font-weight: 800;
     color:#1F2937;
-    margin-top: 20px;
-    
-
+    margin-top: 50px;
 }
 
 .item p{
