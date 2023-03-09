@@ -128,6 +128,8 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0px 25vw 0px 25vw;
+
 }
 
 .content-quote p{
@@ -140,6 +142,10 @@ li{
     font-size: 24px;
     font-weight: 600;
     color:#1F2937;
-    margin-top: 0px;
+    margin-top: -10px;
+    padding-top: 0px;
+    text-align: right;
+    align-self: end;
+    flex: 0 0 auto;
 }
 
